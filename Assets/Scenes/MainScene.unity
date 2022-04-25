@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 145025716}
   - component: {fileID: 145025715}
   - component: {fileID: 145025714}
+  - component: {fileID: 145025718}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -236,6 +237,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 10.797001, y: -5.62601, z: 0}
+--- !u!114 &145025718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 145025713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d67fc0682674884c9796f9815839300, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1924863530}
+  offset: {x: 0.068, y: 0.47, z: -0.86}
 --- !u!1 &212631080
 GameObject:
   m_ObjectHideFlags: 0
@@ -1240,6 +1255,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -9.0396796e-29
+      objectReference: {fileID: 0}
+    - target: {fileID: 3524383183909414571, guid: f2963b2264f264b4982e0f9181c5c175,
+        type: 3}
+      propertyPath: runSpeed
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3861929002595477693, guid: f2963b2264f264b4982e0f9181c5c175,
         type: 3}
@@ -2397,28 +2417,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1900527365}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1924863527 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2927862843872917721, guid: f2963b2264f264b4982e0f9181c5c175,
-    type: 3}
-  m_PrefabInstance: {fileID: 873134324}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1924863528
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1924863527}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c3c058966006ec418e32ea5177831eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  runSpeed: 0.5
-  horizontalSpeed: 0.001
-  minDistanceSwap: 5
-  detectSwipeAfterRelease: 1
 --- !u!4 &1924863530 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2587893111618036323, guid: f2963b2264f264b4982e0f9181c5c175,

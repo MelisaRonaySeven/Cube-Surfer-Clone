@@ -831,6 +831,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2587893111618036323}
   - component: {fileID: 2621291177139390335}
+  - component: {fileID: 3524383183909414571}
   m_Layer: 0
   m_Name: character_fast_animation
   m_TagString: Player
@@ -875,6 +876,22 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &3524383183909414571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2927862843872917721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c3c058966006ec418e32ea5177831eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runSpeed: 1
+  horizontalSpeed: 0.001
+  minDistanceSwap: 5
+  detectSwipeAfterRelease: 1
 --- !u!1 &3016775882020507269
 GameObject:
   m_ObjectHideFlags: 0
